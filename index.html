@@ -18,6 +18,8 @@
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" type="text/css" href="jquery.pagepiling.css">
+    <link href="SlickQuiz-master/css/reset.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="SlickQuiz-master/css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet">
 
 
@@ -102,15 +104,15 @@
               <table class="col-md-10 tabled">
                 <tr>
                   <td>
-                <h2>curb-side</h2>
+                <h2 class="collecting-stuff"> curb-side </h2>
                 <p>Simply place the recycled material in its designated bin and leave it on the curb with your trash to be collected by the city.<br/><br/><br/></p>
               </td>
               <td>
-                <h2>drop-off</h2>
+                <h2 class="collecting-stuff"> drop-off </h2>
                 <p>Your recycled materials can be dropped-off at your local designated drop-off location.<br/><br/><br/></p>
               </td>
               <td>
-                <h2>deposit</h2>
+                <h2 class="collecting-stuff"> deposit </h2>
                 <p>Your recycling can be deposited to a place where I'm not sure yet, but I will get more info to put here.<br/><br/><br/></p>
               </td>
             </tr>
@@ -175,13 +177,19 @@
           <div class="row">
             <div class="col-md-12">
               <h1>The Impact</h1>
-              <img class="chart" src="../Project2/icons/chart.png">
-              <p class="intro-graph">You can dramatically reduce waste and energy every day by recycling and buying products made of recycled materials. Small changes to your daily routine can make a large change in the amount of new materials gathered for production and the overall human footprint on earth.</p>
+              <img class="col-md-3 col-sm-8 col-xs-8 chart" src="../Project2/icons/chart.png">
+              <p class="col-md-9 col-sm-12 col-xs-12 intro-graph">You can dramatically reduce waste and energy every day by recycling and buying products made of recycled materials. Small changes to your daily routine can make a large change in the amount of new materials gathered for production and the overall human footprint on earth.</p>
             </div>
-            <div class="col-md-8 bottom">
-              <p>Every <em>ton</em> of paper recycled saves the energy equivalent of </p>
-                <p class="gallons"><em>322 gallons of gas</em>
-              <img class="paper-stack" src="../Project2/icons/paper-stack.png"></p>
+          </div>
+          <div class="row">
+            <div class="col-md-12 bottom">
+              <div class="col-md-4">
+                <p>Every <em>ton</em> of paper recycled saves the energy equivalent of<br/>
+                <em>322 gallons of gas</em></p>
+              </div>
+              <div class="col-md-8">
+                <img class="paper-stack" src="../Project2/icons/paper-stack.png">
+              </div>
             </div>
           </div>
         </div>
@@ -207,20 +215,24 @@
           </div>
         </div>
 
+        <!--EIGTH PAGE-->
+
+        <div class="col-md-12 section section8" id="slickQuiz">
+          <h1 class="quizName"></h1>
+            <div class="col-md-12 quizArea">
+              <div class="quizHeader">
+                <a class="startQuiz" href="">Get Started!</a>
+              </div>
+            </div>
+            <div class="quizResults">
+              <h3 class="quizScore">You Scored: <span></span></h3>
+              <h3 class="quizLevel"><strong>Ranking:</strong> <span></span></h3>
+              <div class="quizResultsCopy"></div>
+            </div>
+        </div>
+
 
       </div>
-
-
-
-      <!--<div id="quiz">
-        <div id="quiz-header">
-          <h1>jQuery Quiz Plugin</h1>
-          <p class="faded">A quiz about the plugin built by the plugin.</p>
-        </div>
-        <div id="quiz-start-screen">
-          <p><a href="#" id="quiz-start-btn" class="quiz-button">Start</a></p>
-        </div>
-      </div>-->
 
 
 
@@ -238,13 +250,12 @@
     <script src="https://jchamill.github.io/jquery-quiz/jquery.quiz-min.js"></script>-->
 
 
-    <!--<script src="js/jquery.bxslider.min.js"></script> slider plugin-->
-
-
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
-
+    <script src="SlickQuiz-master/js/slickQuiz-config.js"></script>
+    <script src="SlickQuiz-master/js/slickQuiz.js"></script>
 <script src="js/scripts.js"></script>
+
 
 
   </body>
