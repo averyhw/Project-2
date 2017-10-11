@@ -69,8 +69,16 @@ p{
   text-align: center;
   margin: auto;
 }
+.tabled td{
+  margin: 5px;
+}
 .collecting-stuff{
   text-decoration: underline;
+}
+.throw{
+  margin: auto;
+  width: 100%;
+  height: auto;
 }
 
 /* FOURTH PAGE */
@@ -87,7 +95,6 @@ p{
 .even-roads{
   width: 100%;
   height: auto;
-  margin: 0px;
 }
 .section-4{
   margin-bottom: 30px;
@@ -120,6 +127,13 @@ p{
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
+  width: 100%;
+  height: auto;
+  list-style-type: none;
+  display: inline-block;
+}
+.recycle-labels li{
+  display: inline;
 }
 
 /* SIXTH PAGE */
@@ -185,6 +199,14 @@ a:visited{
 }
 .quiz-space{
   margin: 10px;
+}
+.quizArea{
+  background-color: #cee5c6;
+  padding: 10px;
+}
+.quiz-answer{
+  background-color: #abd59e;
+  padding: 10px;
 }
 
 
