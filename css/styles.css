@@ -153,6 +153,10 @@ p{
 .caption{
   margin-left: 25px;
 }
+.labels-to-look-for{
+  width: 100%;
+  height: auto;
+}
 
 /* SIXTH PAGE */
 #section6{
