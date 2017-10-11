@@ -35,7 +35,7 @@ var quizJSON = {
             ],
             "select_any": true,
             "correct": "<p class='quiz-space quiz-answer'><span>Phew!</span> Thank you for recycling and not littering.</p>",
-            "incorrect": "<p class='quiz-space quiz-answer'><span>Yikes!</span> You can leave it curb-side, drop it off and leave it at a deposit — you don't have to throw it out the window!</p>" // no comma here
+            "incorrect": "<p class='quiz-space quiz-answer'><span>Yikes!</span> You can leave it curb-side, drop it off and turn it in for money — you don't have to throw it out the window!</p>" // no comma here
         },
         { // Question 3 - Multiple Choice, Multiple True Answers, Select All
             "q": "<p class='quiz-space'>Which item is made from recycled materials? Select ALL that apply.</p>",
@@ -57,7 +57,7 @@ var quizJSON = {
                 {"option": "ABC",   "correct": false} // no comma here
             ],
             "correct": "<p class='quiz-space quiz-answer'><span>Recycle pro over here!</span> An example of a number 1 plastic is a peanut butter jar (but you probably already know that).</p>",
-            "incorrect": "<p class='quiz-space quiz-answer'><span>Whoops!</span> Those aren't even real — go back to the slides.</p>" // no comma here
+            "incorrect": "<p class='quiz-space quiz-answer'><span>Whoops!</span> That isn't even real — go back to the slides.</p>" // no comma here
         },
         { // Question 5
             "q": "<p class='quiz-space'>How can you continue to recycle on your own? Select ALL that apply.</p>",

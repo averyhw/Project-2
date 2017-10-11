@@ -1,7 +1,7 @@
+/*GENERAL*/
 ul{
   list-style-type: none;
 }
-/* FIRST PAGE */
 h1{
   color: black;
   margin-right: 20px;
@@ -23,11 +23,15 @@ h5{
 p{
   font-family: 'Lato', sans-serif;
 }
+
+/*TITLE PAGE*/
 .title-page{
   width: 100%;
   height: auto;
   margin: auto;
 }
+
+/*FIRST PAGE*/
 #section1{
   background-size: cover;
 }
@@ -106,6 +110,7 @@ p{
 .even-roads{
   width: 100%;
   height: auto;
+  margin-top: 20px;
 }
 .section-4{
   margin-bottom: 30px;
@@ -235,8 +240,6 @@ a:visited{
 .on-your-own li p{
   float: left;
 }
-
-
 
 /*QUIZ*/
 .section8{

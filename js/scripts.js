@@ -1,7 +1,10 @@
 
 //READY FUNCTION
 $(document).ready(function() {
-	$('#pagepiling').pagepiling();
+	$('#pagepiling').pagepiling({
+	    sectionsColor: ['#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c'],
+			loopBottom: true
+	});
 	$('.title-tipso').tipso({
 		speed       : 400,
     background  : '#55b555',
@@ -25,11 +28,4 @@ $(function () {
     $('#slickQuiz').slickQuiz({
         // options
     });
-});
-
-
-
-//BACKGROUND COLORS
-$('#pagepiling').pagepiling({
-    sectionsColor: ['#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c'],
 });
