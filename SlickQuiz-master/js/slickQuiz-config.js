@@ -7,11 +7,11 @@ var quizJSON = {
         "name":    "Test Your Knowledge!",
         "main":    "<p class='quiz-space'>Think you know all about recycling now? Take this quiz and find out.</p>",
         "results": "<h5>Learn more at the EPA's website! Happy recycling!</h5>",
-        "level1":  "Recycle Pro",
-        "level2":  "Intermediate Recycler ",
-        "level3":  "Not a Good Recycler",
-        "level4":  "Never Recycled",
-        "level5":  "What is recycling?" // no comma here
+        "level1":  "<p>Recycle Pro</p>",
+        "level2":  "<p>Intermediate Recycler</p>",
+        "level3":  "<p>Not a Good Recycler</p>",
+        "level4":  "<p>Never Recycled</p>",
+        "level5":  "<p>What is recycling?</p>" // no comma here
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
