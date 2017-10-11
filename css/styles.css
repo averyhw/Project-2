@@ -137,6 +137,9 @@ p{
 .recycle-labels li{
   display: inline;
 }
+.caption{
+  margin-left: 25px;
+}
 
 /* SIXTH PAGE */
 #section6{
