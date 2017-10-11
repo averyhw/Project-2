@@ -31,5 +31,5 @@ $(function () {
 
 //BACKGROUND COLORS
 $('#pagepiling').pagepiling({
-    sectionsColor: ['#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c'],
+    sectionsColor: ['#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c', '#aad69c'],
 });
