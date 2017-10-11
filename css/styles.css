@@ -17,6 +17,8 @@ h2{
 h5{
   margin: 15px;
   font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 20pt;
 }
 p{
   font-family: 'Lato', sans-serif;
@@ -144,9 +146,19 @@ p{
   width: 100%;
   height: auto;
 }
+.chart-side{
+  margin-left: 20px;
+}
 .paper-stack{
   width: 100%;
   height: auto;
+}
+.paper-gas{
+  margin-right: 20px;
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid darkgreen;
 }
 .bottom{
   margin: auto;
@@ -215,7 +227,8 @@ a:visited{
 }
 .quizArea{
   background-color: #cee5c6;
-  padding: 10px;
+  padding: 50px;
+  margin: auto;
 }
 .quiz-answer{
   background-color: #abd59e;

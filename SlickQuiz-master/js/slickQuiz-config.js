@@ -9,7 +9,7 @@ var quizJSON = {
         "results": "<h5>Learn more at the EPA's website! Happy recycling!</h5>",
         "level1":  "<p>Recycle Pro</p>",
         "level2":  "<p>Intermediate Recycler</p>",
-        "level3":  "<p>Not a Good Recycler</p>",
+        "level3":  "<p>Could Be Better</p>",
         "level4":  "<p>Never Recycled</p>",
         "level5":  "<p>What is recycling?</p>" // no comma here
     },
